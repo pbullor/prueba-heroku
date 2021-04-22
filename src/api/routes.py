@@ -12,7 +12,7 @@ api = Blueprint('api', __name__)
 def handle_hello():
 
     response_body = {
-        "message": "Hello Pablo! I'm a message that came from the backend"
+        "message": "Hello Pablo Bullor! I'm a message that came from the backend"
     }
 
     return jsonify(response_body), 200
